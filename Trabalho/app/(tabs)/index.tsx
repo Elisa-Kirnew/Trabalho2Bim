@@ -1,17 +1,24 @@
-import { View,StyleSheet } from 'react-native';
-
-
-
-export default function HomeScreen() {
+import { View, StyleSheet } from 'react-native';
+import React from 'react';
+ 
+ 
+import Home from '../../components/home'
+ 
+ 
+ 
+export default function HomeScreen () {
   return (
-     <View style={styles.container}>
-      
-     </View>
+    <View style={styles.container}>
+    <Home />
+    </View>
   );
 }
-
+ 
 const styles = StyleSheet.create({
- container : {
-  flex: 1
- }
+  container: {
+    flex: 1,
+ 
+  },
+ 
 });
+ 
